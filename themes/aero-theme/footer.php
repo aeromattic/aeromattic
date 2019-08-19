@@ -8,35 +8,40 @@
 
 ?>
 
-</div><!-- #content -->
+	</div><!-- #content -->
 </div><!-- .grid-container -->
 
-<footer id="colophon" class="site-footer grid-container grid-container-padded" role="contentinfo">
-
-	<?php if ( is_active_sidebar( 'sidebar-2' ) ) { ?>
-		<aside class="rtp-footer-widgets row grid-x grid-margin-x">
-			<?php dynamic_sidebar( 'sidebar-2' ); ?>
-		</aside>
-	<?php } ?>
-
-	<div class="site-info row grid-x grid-margin-x">
-		<div class="cell column">
-			<span class="aero-theme-copyright-text">
-				<?php
-				$theme_uri = 'https://aeromattic.com/';
-
-				/* translators: 1: Theme name, 2: Theme author. */
-				$default        = sprintf( esc_html__( '%1$s by %2$s', 'aero-theme' ), esc_html__( 'aero-theme', 'aero-theme' ), '<a href="' . esc_url( $theme_uri ) . '" rel="designer">' . esc_html__( 'Aeromattic', 'aero-theme' ) . '</a>' );
-				$copyright_text = get_theme_mod( 'aero_theme_copyright_text', $default );
-
-				echo $copyright_text; /* WPCS: xss ok. */
-				?>
-			</span>
-			<span class="sep">&nbsp;|&nbsp;</span>
-			<a class="aero-theme-author-footer" href="<?php echo esc_url( 'https://aeromattic.com/' ); ?>" target="_blank" rel="noopener"><?php esc_html_e( 'aero-theme', 'aero-theme' ); ?></a>
+<footer id="footer-wrapper" class="footer" role="footer">
+	<div class="footer-top">
+		<div class="container">
+			<section class="widget-social-sharing">
+				<h2>share the post</h2>
+				<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+					<a class="addthis_button_facebook"></a>
+					<a class="addthis_button_twitter"></a>
+					<a class="addthis_button_email"></a>
+					<a class="addthis_button_linkedin"></a>
+					<a class="addthis_button_compact"></a>
+				</div>
+			</section>
+			<section class="widget newsletter">
+				<h2>SUBSCRIBE US</h2>
+				<form class="form-newsletter">
+					<input type="text" name="newsletter-email" id="newsletter-email" required />
+					<button type="submit">CLICK</button>
+				</form>
+			</section>
 		</div>
-	</div><!-- .site-info -->
-</footer><!-- #colophon -->
+	</div>
+	<div class="footer-main">
+		<div class="container">
+			<section class="widget">
+				<h2>imortant pages</h2>
+
+			</section>
+		</div>
+	</div>
+</footer>
 </div><!-- #page -->
 
 <div class="aero-theme-back-to-top" id="aero-theme-back-to-top"></div>

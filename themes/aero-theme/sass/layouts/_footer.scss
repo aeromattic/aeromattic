@@ -1,0 +1,26 @@
+.footer-wrapper {
+	width: 100%;
+	.widget-social-sharing {
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+	}
+}
+
+.footer-top {
+	padding-left: 20px;
+	padding-right: 20px;
+	background: $white;
+}
+
+.footer-main {
+	padding: 20px;
+	background: $color__secondary;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 30px;
+	padding-right: 30px;
+}
