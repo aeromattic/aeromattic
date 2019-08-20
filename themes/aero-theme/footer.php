@@ -8,7 +8,7 @@
 
 ?>
 
-</div><!-- #content -->
+<!--</div> --> <!-- #content -->
 </div><!-- .grid-container -->
 
 <footer id="colophon" class="site-footer grid-container grid-container-padded" role="contentinfo">

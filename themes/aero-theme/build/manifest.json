@@ -1,9 +1,16 @@
 {
-  "admin/customizer.js": "js/admin/customizer.fa32c4b75262b0c270b5.js",
-  "home.css": "css/home.0e4338761429b4eb16ac.css",
-  "home.js": "js/home.9ab6609fb75ddbbd1081.js",
-  "main.css": "css/main.69d0e1e91b98bc6e7daf.css",
-  "main.js": "js/main.86c954fa2a31737d03d5.js",
-  "single.css": "css/single.0e4338761429b4eb16ac.css",
-  "single.js": "js/single.f6988541fc84a12a70e2.js"
+  "admin/customizer.js": "js/admin/customizer.js",
+  "admin/customizer.js.map": "js/admin/customizer.js.map",
+  "home.css": "css/home.css",
+  "home.css.map": "css/home.css.map",
+  "home.js": "js/home.js",
+  "home.js.map": "js/home.js.map",
+  "main.css": "css/main.css",
+  "main.css.map": "css/main.css.map",
+  "main.js": "js/main.js",
+  "main.js.map": "js/main.js.map",
+  "single.css": "css/single.css",
+  "single.css.map": "css/single.css.map",
+  "single.js": "js/single.js",
+  "single.js.map": "js/single.js.map"
 }

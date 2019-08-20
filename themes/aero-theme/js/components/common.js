@@ -15,6 +15,7 @@ const common = {
 		this.bodyHtml = $( 'body, html' );
 
 		this.bindEvents();
+		this.createSlider();
 	},
 
 	/**
@@ -37,6 +38,22 @@ const common = {
 		this.bodyHtml.animate( {
 			scrollTop: 0
 		}, animationDuration );
+	},
+
+	/**
+	 * Create Sliders.
+	 *
+	 * @return {void}
+	 */
+	createSlider() {
+		var $homeSlider = $( '.home-slider' );
+		if ( $homeSlider.length > 0 ) {
+			$homeSlider.slick( {
+				dots: true,
+				autoplay: true,
+				autoplaySpeed: 5000,
+			} );
+		}
 	}
 
 };

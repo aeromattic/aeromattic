@@ -81,4 +81,4 @@
 	</header><!-- #masthead -->
 
 	<div class="grid-container grid-container-padded">
-		<div id="content" class="site-content row grid-x grid-margin-x">
+		<!-- <div id="content" class="site-content row grid-x grid-margin-x"> -->
