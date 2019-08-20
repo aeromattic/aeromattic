@@ -14,6 +14,16 @@ const common = {
 		this.backToTopButton = document.getElementById( 'aero-theme-back-to-top' );
 		this.bodyHtml = $( 'body, html' );
 
+		var backToTopButton = $( this.backToTopButton );
+
+		$( window ).scroll( function() {
+			if ( 10 < $( this ).scrollTop() ) {
+				backToTopButton.fadeIn();
+			} else {
+				backToTopButton.fadeOut();
+			}
+		} );
+
 		this.bindEvents();
 	},
 

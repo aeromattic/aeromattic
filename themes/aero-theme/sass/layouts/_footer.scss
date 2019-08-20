@@ -1,26 +1,137 @@
 .footer-wrapper {
 	width: 100%;
-	.widget-social-sharing {
-		display: flex;
-		flex-direction: column;
-		padding: 0;
-	}
+	margin-top: 20px;
 }
 
 .footer-top {
-	padding-left: 20px;
-	padding-right: 20px;
-	background: $white;
+	text-align: center;
+	background: linear-gradient(45deg,#F00000 0%, #DC281E 50%);
+	.form-newsletter{
+		input{
+			padding: 7px;
+			width: 250px;
+			border: unset;
+			border-radius: unset;
+		}
+		button{
+			width: 100px;
+			color: $white;
+			padding: 8px 0;
+			margin-bottom: 4px;
+			margin-left: -4px;
+			border-radius: unset;
+			text-transform: uppercase;
+			background:linear-gradient(60deg, #000000 0%, #434343 90%); 
+		}
+	}
 }
 
 .footer-main {
 	padding: 20px;
-	background: $color__secondary;
+	background:linear-gradient(60deg, #000000 0%, #434343 90%); 
+	h2 {
+		font-size: 16px;
+	}
+	a { 
+		color: $white;
+		&:hover {
+			color: #DC281E;
+		}
+		i {
+			color: #DC281E;
+		}
+	}
+}
+
+.footer-bottom {
+	background: #000;
+	color: $white;
+	.policy-term {
+		align-self: center;
+		a {
+			color: $white;
+			margin: 10px;
+			&:hover {
+				color: #DC281E;
+			}
+		}
+	}
 }
 
 .container {
+	color:$white;
+	padding: 0 15px 0 15px;
 	display: flex;
 	justify-content: space-between;
-	padding-left: 30px;
-	padding-right: 30px;
+	h2 {
+		text-transform: uppercase;
+	}
+	.dashicons {
+		color: #DC281E;
+	}
+	.widget{
+		max-width: 360px;
+	}
+}
+
+.get-in-touch {
+	* {
+		padding: 5px;
+	}
+	span{
+		margin-right: 10px;
+	}
+	.get-in-touch__address {
+		padding-left: 30px;
+    	max-width: 250px;
+	}
+	.follow-on-social{
+		padding: 10px;
+		span {
+			width: 32px;
+			height: 32px;
+			background: $white;
+		}
+	}
+}
+
+.aero-theme-back-to-top{
+	position: fixed;
+	bottom: 1.875rem;
+	right: 1.875rem;
+	z-index: 100;
+	width: 3.125rem;
+	height: 3.125rem;
+	font-size: 1.125rem;
+	border: solid 2px #F00000;
+	outline: none;
+	background-color: #DC281E;
+	cursor: pointer;
+	padding: 0.3125rem;
+	span{
+		width: 32px;
+		height: 32px;
+		color: $white;
+	}
+}
+.form-quick-contact {
+	*{
+		display: block;
+		margin-top: 15px;
+	}
+	input {
+		border: unset;
+		border-radius: unset;
+		width: 250px;
+		padding: 6px;
+	}
+	button {
+		border: unset;
+		border-radius: unset;
+		width: 250px;
+		background: linear-gradient(45deg,#F00000 0%, #DC281E 50%);
+		color: $white;
+		padding: 8px;
+	}
+
 }

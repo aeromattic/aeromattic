@@ -7,7 +7,8 @@
  * @package Aero-theme
  */
 
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html lang="en">
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -22,7 +23,7 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'aero-theme' ); ?></a>
 
-	<header id="masthead" class="site-header grid-container grid-container-padded" role="banner">
+	<header id="masthead" class="header-wrapper grid-container grid-container-padded" role="banner">
 		<div class="row grid-x grid-margin-x">
 			<div class="site-branding shrink cell column">
 				<?php
